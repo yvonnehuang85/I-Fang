@@ -12,7 +12,7 @@ export default class Introduction extends Component {
                 <div className="container-fluid">
 
                   {/* <div class="row">
-                    <div class="col-md-8 slider-text-inner">
+                    <div class="col-md-6 slider-text-inner">
                       <div className="desc">
                         <h1> </h1>
                       </div>
