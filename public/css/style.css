@@ -85,7 +85,7 @@ figure {
   -o-transition: 0.5s;
   transition: 0.5s; }
   @media screen and (max-width: 768px) {
-    #colorlib-aside {
+  #colorlib-aside {
       width: 300px;
       -moz-transform: translateX(-300px);
       -webkit-transform: translateX(-300px);
@@ -104,6 +104,11 @@ figure {
     border-radius: 50%; }
   #colorlib-aside .email {
     display: block;
+    color: #696969;
+    font-size: 12px;}
+  #colorlib-aside .address {
+    display: block;
+    color: #696969;
     font-size: 12px;}
   #colorlib-aside .number {
     display: block;

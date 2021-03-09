@@ -11,36 +11,21 @@ export default class Introduction extends Component {
                 <div className="overlay" />
                 <div className="container-fluid">
 
-                  <div class="row">
+                  {/* <div class="row">
                     <div class="col-md-8 slider-text-inner">
                       <div className="desc">
                         <h1> </h1>
                       </div>
                     </div>
-                  </div>
-
-                  <div class="row">
-                    <div class="col-md-8 slider-text-inner">
-                      <div className="desc">
-                        <h1> </h1>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="row">
-                    <div class="col-md-8 slider-text-inner">
-                      <div className="desc">
-                        <h1> </h1>
-                      </div>
-                    </div>
-                  </div>
+                  </div> */}
+                
 
                   <div className="row">
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="col-md-10 slider-text-inner">
                         <div className="desc">
                           <h1>Howdy!<br></br> I am Yvonne.</h1>
-                          <p><a className="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1inP93CWCnXS_v_vo0TCYbQ51O2TsImwV/view?usp=sharing" target="_blank" rel="noopener noreferrer">View CV <i className="icon-download4" /></a></p>
+                          <p><a className="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1inP93CWCnXS_v_vo0TCYbQ51O2TsImwV/view?usp=sharing" target="_blank" rel="noopener noreferrer">View CV <i className="icon-download" /></a></p>
                         </div>
                       </div>
                     </div>
