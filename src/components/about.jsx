@@ -13,8 +13,12 @@ export default class About extends Component {
                     <div className="about-desc">
                     <span className="heading-meta">About Me</span>
                     <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p>I am a second-year master student of Computer Engineering at Texas A&M University. I specialize in Python and Java to develop back-end skills. During my last internship, I improved the efficiency of checking configuration for deployment with Python and implemented two micro services of crawling data from the sport website with Java. </p>
-                    <p>Expected graduate in May 2021. Actively seeking opportunities in software engineering.</p>
+                    <p>I am a second-year master student of Computer Engineering at Texas A&M University. I specialize in <span style={{ fontWeight: 'bold'}}>Python</span> and <span style={{ fontWeight: 'bold'}}>Java</span>. 
+                    I worked as a <span style={{ fontWeight: 'bold'}}>Java Backend Software Intern</span> in <a href="https://www.funpodium.net/" rel="noreferrer" target="_blank">Funpodium</a>.
+                    During my last internship, I implemented two micro services of crawling data from the sport website with Java Spring. 
+                    It triggered my interest in back-end area.<br></br>
+                    Now I am exploring Django, Kubernetes and ReactJS. My interests have expanded even further.</p>
+                    <p>Expected to graduate in May, 2021. I am now actively seeking opportunities in software engineering.</p>
                     </div>
                 </div>
                 </div>
@@ -27,78 +31,43 @@ export default class About extends Component {
             <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
                 <span className="heading-meta">What I do?</span>
-                <h2 className="colorlib-heading">Here are some of my expertise</h2>
+                <h2 className="colorlib-heading">Expertise {'\uff06'} Interested area </h2>
             </div>
             </div>
             <div className="row row-pt-md">
             <div className="col-md-4 text-center animate-box">
                 <div className="services color-1">
-                <span className="icon">
-                    <i className="icon-bulb" />
-                </span>
-                <div className="desc">
-                    <h3>Web Development </h3>
-                    <p>I have experience building websites and chrome extentions using JavaScript,React,HTML,CSS</p>
-                </div>
+                    <span className="icon">
+                        <i className="icon-cog2"/>
+                    </span>
+                    <div className="desc">
+                        <h3>Microservices</h3>
+                        <p>During the last internship, I focused on Backend team at Funpodium and working with tools like <span style={{ fontWeight: 'bold'}}>SpringBoot, Docker, MongoDB and MySQL</span>.</p>
+                    </div>
                 </div>
             </div>
             <div className="col-md-4 text-center animate-box">
                 <div className="services color-3">
                 <span className="icon">
-                    <i className="icon-phone3" />
+                    <i className="icon-device-desktop" />
                 </span>
                 <div className="desc">
-                    <h3>Data Structures & Algorithms</h3>
-                    <p>As coming from the CS background, I have good grasp over fundamental concepts of DSA</p>
+                    <h3>Web Development </h3>
+                    <p>Creating a car selling website with <span style={{ fontWeight: 'bold'}}>Javascript / HTML</span> for the front-end and deployed the application to <span style={{ fontWeight: 'bold'}}>Heroku</span>.</p>
                 </div>
                 </div>
             </div>
             <div className="col-md-4 text-center animate-box">
                 <div className="services color-5">
                 <span className="icon">
-                    <i className="icon-data" />
+                    <i className="icon-infinity" style={{fontSize: "40px"}} />
                 </span>
                 <div className="desc">
-                    <h3>Dev Ops</h3>
-                    <p>I am pursuing my internship with DevOps team at Juniper and working with tools like Jenkins, Docker, K8s</p>
+                    <h3>DeVops</h3>
+                    <p>I learned the concept of <span style={{ fontWeight: 'bold'}}>Kubernetes</span> from Udemy. I explored how to deploy a service or several microservices to google cloud.</p>
                 </div>
                 </div>
             </div>
-            {/*
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-2">
-                <span className="icon">
-                    <i className="icon-data" />
-                </span>
-                <div className="desc">
-                    <h3>Dev Ops</h3>
-                    <p>Jenkins , Kubernetes , Docker </p>
-                </div>
-                </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-4">
-                <span className="icon">
-                    <i className="icon-layers2" />
-                </span>
-                <div className="desc">
-                    <h3>Graphic Design</h3>
-                    <p>My friend knows .. P</p>
-                </div>
-                </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-6">
-                <span className="icon">
-                    <i className="icon-phone3" />
-                </span>
-                <div className="desc">
-                    <h3>Digital Marketing</h3>
-                    <p>I use Instagram eight hours a day :) </p>
-                </div>
-                </div>
-            </div>
-            */}
             </div>
         </div>
         </section>
