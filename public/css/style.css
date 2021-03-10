@@ -1434,3 +1434,20 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+.photo {
+  height: 330px;
+  width: 700px;} 
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.back {
+  color:black;
+}
+
+.continue {
+  color:dimgray;
+}
