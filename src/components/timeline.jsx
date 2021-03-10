@@ -49,10 +49,10 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <div className="footer">
-                            <h2 className={"back"}> CAD Engineer</h2>  
+                            <h2 className={"back"}> CAD Engineer at Advanced Wireless Semiconductor</h2>  
                             <span  className={"continue"} >Jan. - Jul. 2019</span>
                         </div>
-                        <p> I had a full-time work experience as a CAD engineer in Taiwan Advanced Wireless Semiconductor. My job is to provide process design kit to IC design company. Depending on their needs and the technique our comapny can handle, I need to design the best process kit for customers.
+                        <p> I had a full-time work experience as a CAD engineer in Taiwan. My job is to provide process design kit to IC design company. Depending on their needs and the technique our comapny can handle, I need to design the best process kit for customers.
                             <br></br>
                             <br></br>{'\u2B24'} Provided backend parameterized cells of process design kit through Linux to IC design companies such as Qualcomm and Skyworks. (Cadence)
                             <br></br>{'\u2B24'} Optimized the efficiency of design rule checking and layout versus schematic by 50% for verifying IC. 
