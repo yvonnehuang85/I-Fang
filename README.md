@@ -17,7 +17,12 @@
    - $ git init
    - $ git remote add origin git@github.com:yvonnehuang85/I-Fang.git
    - $ npm install gh-pages --save
-   - $ npm run deploy
+
+   - Modify package.json
+      - add "homepage": "http://yvonnehuang85.github.io/I-Fang" at the top
+      -  add in script:
+         - "predeploy": "npm run build",
+         - "deploy": "gh-pages -d build",
 
 ## View My Website:
 http://yvonnehuang85.github.io/I-Fang
