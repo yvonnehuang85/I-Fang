@@ -17,6 +17,14 @@ export default class Contact extends Component {
                 <div className="col-md-5">
                     <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
                         <div className="colorlib-icon">
+                            <i className="icon-cloud-storage"></i>
+                        </div>
+                        <div className="colorlib-text">
+                            <p><a href="https://drive.google.com/file/d/1inP93CWCnXS_v_vo0TCYbQ51O2TsImwV/view?usp=sharing"><span class="__cf_email__" data-cfemail="e1888f878ea1858e8c80888fcf828e8c">Resume</span></a></p>
+                        </div>
+                    </div>
+                    <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+                        <div className="colorlib-icon">
                             <i className="icon-mail5"></i>
                         </div>
                         <div className="colorlib-text">

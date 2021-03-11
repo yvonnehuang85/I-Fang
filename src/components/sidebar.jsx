@@ -20,15 +20,16 @@ export default class Sidebar extends Component {
                 <ul>
                   <li className="active"><a href="#home" data-nav-section="home">Home</a></li>
                   <li><a href="#about" data-nav-section="about">About</a></li>
-                  <li><a href="#skills" data-nav-section="about">Skills</a></li>
+                  <li><a href="#skills" data-nav-section="skills">Skills</a></li>
                   <li><a href="#timeline" data-nav-section="timeline">Timeline</a></li>
-                  <li><a href="#about" data-nav-section="projects">Projects</a></li>
+                  <li><a href="#projects" data-nav-section="projects">Projects</a></li>
                   <li><a href="#contact" data-nav-section="contact">Contact</a></li>
                 </ul>
               </div>
             </nav>
             <nav id="colorlib-main-menu">
               <ul>
+              <li><a href="https://drive.google.com/file/d/1inP93CWCnXS_v_vo0TCYbQ51O2TsImwV/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="icon-download" /></a></li>
                 <li><a href="https://www.linkedin.com/in/i-fang-huang/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
                 <li><a href="https://github.com/yvonnehuang85" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
                 <li><a href="https://www.facebook.com/evonne.hung.16/" target="_blank" rel="noopener noreferrer"><i className="icon-facebook2" /></a></li>
