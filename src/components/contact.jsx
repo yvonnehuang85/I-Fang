@@ -12,6 +12,7 @@ export default class Contact extends Component {
                     <h2 className="colorlib-heading">Contact</h2>
                 </div>
             </div>
+            
             <div className="row">
                 <div className="col-md-5">
                     <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">

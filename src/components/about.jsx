@@ -53,7 +53,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>Web Development </h3>
-                    <p>Creating a car selling website with <span style={{ fontWeight: 'bold'}}>Javascript / HTML</span> for the front-end and deployed the application to <span style={{ fontWeight: 'bold'}}>Heroku</span>.</p>
+                    <p>Creating a car selling website with <span style={{ fontWeight: 'bold'}}>Javascript / HTML</span> for the front-end and deployed the application to <span style={{ fontWeight: 'bold'}}>Heroku</span>.<br></br></p>
                 </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>DeVops</h3>
-                    <p>I learned the concept of <span style={{ fontWeight: 'bold'}}>Kubernetes</span> from Udemy. I explored how to deploy a service or several microservices to google cloud.</p>
+                    <p>I learned the concept of <span style={{ fontWeight: 'bold'}}>Kubernetes</span> from Udemy. I explored how to deploy a service or several microservices to google cloud.<br></br></p>
                 </div>
                 </div>
             </div>
