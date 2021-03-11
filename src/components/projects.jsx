@@ -25,7 +25,7 @@ export default class Projects extends Component {
                                             I developed my personal website based on Colorlib, designed the front-end with ReactJS, and deployed to github page.
                                             </p>
                                             <p className="icon">
-                                                <span><a href="https://github.com/yvonnehuang85/I-Fang">
+                                                <span><a href="https://yvonnehuang85.github.io/I-Fang/">
                                                         <i className="col-md-10"/>
                                                             <i className="icon-eye" /> 1996
                                                     </a>
