@@ -31,12 +31,14 @@ export default class Timeline extends Component {
                                 For sport data service, with topic exchange of RabbitMQ, we receive the data from grab service, and separately put them into MongoDB(raw data)and MySQL(processed data).
                                 Also we scheduled the process of getting API at a fix frequency to check the data in the database is correct, and we construct a docker-compose to combine RabbitMQ, MongoDB, MySQL.
                                 <br></br>
-                                <br></br>{'\u25CF'} Built microservices, docker compose for data crawling from sport website. (Spring Boot / RabbitMQ)
-                                <br></br>{'\u25CF'}	Maintained the data in both MongoDB and MySQL.
-                                <br></br>{'\u25CF'}	Designed a rule verification engine to dynamically check configurations for the DevOps department. (Python)
-                                <br></br>{'\u25CF'}	Increased the efficiency of flexibly-log-recording by 33%, via adopting the aspect-oriented programming paradigm. (Java)
                                 <br></br>
+                                <ul>  
+                                  <li> Built microservices, docker compose for data crawling from sport website. (Spring Boot / RabbitMQ)</li>
+                                  <li>Maintained the data in both MongoDB and MySQL.</li>
+                                  <li>Designed a rule verification engine to dynamically check configurations for the DevOps department. (Python)</li>
+                                  <li>Increased the efficiency of flexibly-log-recording by 33%, via adopting the aspect-oriented programming paradigm. (Java)</li>
                                 <br></br>
+                                </ul>
                             <img className='photo' src='images/Concept.png' alt="Concept Structure" /></p>
                         </div>
                     </div>
@@ -54,8 +56,11 @@ export default class Timeline extends Component {
                         </div>
                         <p> I had a full-time work experience as a CAD engineer in Taiwan. My job is to provide process design kit to IC design company. Depending on their needs and the technique our comapny can handle, I need to design the best process kit for customers.
                             <br></br>
-                            <br></br>{'\u25CF'} Provided backend parameterized cells of process design kit through Linux to IC design companies such as Qualcomm and Skyworks. (Cadence)
-                            <br></br>{'\u25CF'} Optimized the efficiency of design rule checking and layout versus schematic by 50% for verifying IC. 
+                            <ul>
+                              <li>Provided backend parameterized cells of process design kit through Linux to IC design companies such as Qualcomm and Skyworks. (Cadence)</li>
+                              <li>Optimized the efficiency of design rule checking and layout versus schematic by 50% for verifying IC.</li>
+                            </ul>
+                            
                         </p> 
                       </div>
                     </div>

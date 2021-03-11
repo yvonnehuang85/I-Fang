@@ -20,9 +20,10 @@ export default class Sidebar extends Component {
                 <ul>
                   <li className="active"><a href="#home" data-nav-section="home">Home</a></li>
                   <li><a href="#about" data-nav-section="about">About</a></li>
-                  {/* <li><a href="#" data-nav-section="blog">Blog</a></li> */}
+                  <li><a href="#skills" data-nav-section="about">Skills</a></li>
                   <li><a href="#timeline" data-nav-section="timeline">Timeline</a></li>
                   <li><a href="#about" data-nav-section="projects">Projects</a></li>
+                  <li><a href="#contact" data-nav-section="contact">Contact</a></li>
                 </ul>
               </div>
             </nav>
@@ -31,7 +32,7 @@ export default class Sidebar extends Component {
                 <li><a href="https://www.linkedin.com/in/i-fang-huang/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
                 <li><a href="https://github.com/yvonnehuang85" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
                 <li><a href="https://www.facebook.com/evonne.hung.16/" target="_blank" rel="noopener noreferrer"><i className="icon-facebook2" /></a></li>
-                <li><a href="https://www.instagram.com/yvonne__huang0806/" target="_blank" rel="noopener noreferrer"><i className="icon-instagram" /></a></li>
+                {/* <li><a href="https://www.instagram.com/yvonne__huang0806/" target="_blank" rel="noopener noreferrer"><i className="icon-instagram" /></a></li> */}
                 {/* <li><a href="https://www.youtube.com/watch?v=RNoW3JUqD4s" target="_blank" rel="noopener noreferrer"><i className="icon-youtube"></i></a></li> */}
               </ul>
             </nav>
