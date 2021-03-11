@@ -29,7 +29,7 @@ export default class Sidebar extends Component {
             </nav>
             <nav id="colorlib-main-menu">
               <ul>
-              <li><a href="https://drive.google.com/file/d/1inP93CWCnXS_v_vo0TCYbQ51O2TsImwV/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="icon-cloud-download2" /></a></li>
+                <li><a href="https://drive.google.com/file/d/1inP93CWCnXS_v_vo0TCYbQ51O2TsImwV/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="icon-cloud-download2" /></a></li>
                 <li><a href="https://www.linkedin.com/in/i-fang-huang/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
                 <li><a href="https://github.com/yvonnehuang85" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
                 <li><a href="https://www.facebook.com/evonne.hung.16/" target="_blank" rel="noopener noreferrer"><i className="icon-facebook2" /></a></li>
