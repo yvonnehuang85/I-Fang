@@ -19,10 +19,12 @@
    - $ npm install gh-pages --save
 
    - Modify package.json
+      - "http://{username}.github.io/{repo-name}" {username} is your GitHub username, and {repo-name} is the name of the GitHub repository you created
       - add "homepage": "http://yvonnehuang85.github.io/I-Fang" at the top
       -  add in script:
          - "predeploy": "npm run build",
          - "deploy": "gh-pages -d build",
+   - $ npm run deploy
 
 ## View My Website:
 http://yvonnehuang85.github.io/I-Fang
