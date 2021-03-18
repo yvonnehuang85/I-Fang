@@ -92,7 +92,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <div className="footer">
-                            <h2 className={"back"}> Master's Degree at Taxas A&M University <span> GPA:3.9</span> </h2>  
+                            <h2 className={"back"}> Master's Degree at Texas A&M University <span> GPA:3.9</span> </h2>  
                             <span  className={"continue"} >2019-2021</span>
                         </div>
                         <p> 
