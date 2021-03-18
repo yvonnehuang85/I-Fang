@@ -26,5 +26,7 @@
          - "deploy": "gh-pages -d build",
    - $ npm run deploy
 
+   - if you modify the website and re-deploy it, it needs some time (~10 minutes) to refresh. Just keep reload ~10 minutes.
+
 ## View My Website:
 http://yvonnehuang85.github.io/I-Fang
